@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './docs'),
-    publicPath: 'https://github.com/sahwasa/vuetodo/',
+    publicPath: 'https://sahwasa.github.io/vuetodo/',
     filename: 'build.js'
   },
   module: {
