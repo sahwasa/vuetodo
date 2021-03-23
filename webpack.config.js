@@ -4,8 +4,8 @@ var webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, './docs'),
+    publicPath: 'https://github.com/sahwasa/vuetodo/',
     filename: 'build.js'
   },
   module: {
